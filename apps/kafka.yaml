@@ -7,10 +7,10 @@ metadata:
 spec:
   chart:
     spec:
-      chart: ./cp-helm-charts/charts
+      chart: cp-helm-charts
       sourceRef:
-        kind: GitRepository
-        name: kafka-community-edition
+        kind: HelmRepository
+        name: kafka-community-edition1
       version: 0.6.0
   interval: 10m0s
 
