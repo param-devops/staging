@@ -9,7 +9,7 @@ spec:
     spec:
       chart: ./cp-helm-charts/charts
       sourceRef:
-        kind: GitRepository
+        kind: HelmRepository
         name: kafka-community-edition
       version: 0.6.0
   interval: 10m0s
