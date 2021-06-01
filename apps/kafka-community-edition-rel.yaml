@@ -10,7 +10,7 @@ spec:
       chart: cp-helm-charts
       sourceRef:
         kind: GitRepository
-        name: flux-system
+        name: confluentinc
       version: 0.6.0
   interval: 10m0s
 
