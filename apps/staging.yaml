@@ -10,7 +10,7 @@ spec:
       chart: helm
       sourceRef:
         kind: GitRepository
-        name: staging-new
+        name: app-source
   interval: 30s
   targetNamespace: staging
 
