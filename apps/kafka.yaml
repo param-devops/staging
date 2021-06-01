@@ -7,10 +7,10 @@ metadata:
 spec:
   chart:
     spec:
-      chart: cp-kafka-connect
+      chart: cp-helm-charts
       sourceRef:
         kind: GitRepository
         name: kafka-community-edition
-      version: 0.1.0
+      version: 0.6.0
   interval: 10m0s
 
