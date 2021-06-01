@@ -7,10 +7,10 @@ metadata:
 spec:
   chart:
     spec:
-      chart: helm
+      chart: kubernetes-yml-files
       sourceRef:
         kind: GitRepository
-        name: staging-new
+        name: app-source
   interval: 30s
   targetNamespace: staging
 
