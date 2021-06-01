@@ -3,14 +3,14 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: helmrelease
-  namespace: flux-system
+  namespace: confluentinc
 spec:
   chart:
     spec:
       chart: cp-helm-charts
       sourceRef:
         kind: GitRepository
-        name: confluentinc
+        name: flux-system
       version: 0.6.0
   interval: 10m0s
 
