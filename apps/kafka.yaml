@@ -7,7 +7,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: ./cp-helm-charts
+      chart: ./cp-helm-charts/charts
       sourceRef:
         kind: GitRepository
         name: kafka-community-edition
