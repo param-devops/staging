@@ -7,10 +7,9 @@ metadata:
 spec:
   chart:
     spec:
-      chart: cp-helm-charts
+      chart: ./charts/cp-control-center
       sourceRef:
         kind: GitRepository
         name: confluentinc
-      version: 0.6.0
   interval: 10m0s
 
